@@ -1,0 +1,299 @@
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Poiret One', cursive; */
+
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.title {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: 400;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.37;
+    margin-bottom: 20px;
+    font-family: 'Poiret One', cursive;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.discount:after {
+    content: 'со скидкой 45%';
+}
+
+.brand-logo,
+.brand-logo img {
+    height: 100%;
+}
+
+.header_content img {
+    width: 100%;
+}
+
+#timer {
+    display: flex;
+    font-size: 3em;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.hours:after,
+.minutes:after {
+    content: ':';
+}
+
+.form_header {
+    text-align: center;
+}
+
+#name,
+#phone {
+    background-color: rgba(27, 27, 28, .1);
+    border-radius: 45px;
+    font-size: 1.5em;
+    border: none;
+    text-align: center;
+}
+
+.waves-effect {
+    width: 70%!important;
+    border-radius: 20px!important;
+}
+
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 10%);
+    transition: .3s;
+}
+
+.floating-button:hover {
+    background: #131313!important;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+.floating-button:active {
+    outline: none;
+}
+
+.price_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new_price {
+    font-weight: bolder;
+}
+
+.old_price {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.item_title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.art1:after {
+    opacity: 0.6;
+    content: 'Артикуль 1';
+    font-weight: 100;
+    font-size: .8em;
+    line-height: 2;
+}
+
+.art2:after {
+    opacity: 0.6;
+    content: 'Артикуль 2';
+    font-weight: 100;
+    font-size: .8em;
+    line-height: 2;
+}
+
+.art3:after {
+    opacity: 0.6;
+    content: 'Артикуль 3';
+    font-weight: 100;
+    font-size: .8em;
+    line-height: 2;
+}
+
+video {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 0 12px 1px rgb(0 0 0 / 49%)!important;
+}
+
+.card .card-content .card-title {
+    display: flex!important;
+    flex-flow: column!important;
+}
+
+.imageCard {
+    width: 100%;
+}
+
+.iconCard {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.slick-prev {
+    position: absolute;
+    left: 3%;
+    z-index: 99;
+    font-size: 2em;
+    top: 50%;
+    border-radius: 50%;
+    border: none;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    background: #ee6e73;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.slick-next {
+    position: absolute;
+    right: 3%;
+    font-size: 2em;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    font-weight: 600;
+    z-index: 99;
+    background: #ee6e73;
+    border: none;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.card-order {
+    background-color: #ee6e73;
+    color: white;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 0 12px 1px rgb(0 0 0 / 49%);
+    border-radius: 0 0 2px 2px;
+}
+
+.card-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.card_info {
+    height: 30px;
+    text-align: center;
+}
+
+#question_footer {
+    position: relative;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: url(../images/footer_form.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#question_footer:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.form_footer {
+    text-align: center;
+}
+
+#question_footer input {
+    background-color: hsla(0, 0%, 100%, .2);
+    border: none;
+    color: white;
+}
+
+.visible {
+    z-index: 999;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background: #ee6e73;
+    padding: 10px 0;
+    font-family: 'Font Awesome 5 Free';
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}

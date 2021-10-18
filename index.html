@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="js/slick.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="images/logo.png" alt=""></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#product">Каталог</a></li>
+                    <li><a href="#question">FAQ</a></li>
+                    <li><a href="#slider_review">Отзывы</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#product">Каталог</a></li>
+            <li><a href="#question">FAQ</a></li>
+            <li><a href="#slider_review">Отзывы</a></li>
+        </ul>
+        <div class="header_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col m6 s12">
+                        <img src="images/header_bg.png" alt="">
+                    </div>
+                    <div class="col m6 s12">
+                        <h3 class="discount">Набор столовых приборов</h3>
+                        <div id="timer">
+                            <div class="hours"></div>
+                            <div class="minutes"></div>
+                            <div class="seconds"></div>
+                        </div>
+                        <form class='form_header' action="">
+                            <label for="name"> Ваше имя*
+                            <input id="name" placeholder="Ваше имя" name="name" type="text">
+                        </label>
+                            <label for="phone"> Ваш телефон*
+                            <input id="phone" placeholder="Ваш телефон" name="phone" type="text">
+                        </label>
+                            <input class="floating-button" type="submit" value="Отправить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="product">
+        <div class="container">
+            <h2 class="title">Политика безопасности клиента</h2>
+            <p class="subtitle">Мы заботимся о наших клиентах, минимизируя все возможные риски</p>
+            <div class="row">
+                <div class="col m4 s12">
+                    <div class="slider-for">
+                        <img src="images/carousel/1/1.jpg" alt="carousel">
+                        <img src="images/carousel/1/2.jpg" alt="carousel">
+                        <img src="images/carousel/1/3.jpg" alt="carousel">
+                        <img src="images/carousel/1/4.jpg" alt="carousel">
+                        <img src="images/carousel/1/5.jpg" alt="carousel">
+                    </div>
+                    <div class="slider-nav">
+                        <img src="images/carousel/1/1.jpg" alt="carousel">
+                        <img src="images/carousel/1/2.jpg" alt="carousel">
+                        <img src="images/carousel/1/3.jpg" alt="carousel">
+                        <img src="images/carousel/1/4.jpg" alt="carousel">
+                        <img src="images/carousel/1/5.jpg" alt="carousel">
+                    </div>
+                    <p class="item_title art1">Черный набор</p>
+                    <p class="item_subtitle"><span>В набор входит:</span> Вилка, нож, ложка столовая, ложка чайная.</p>
+                    <div class="price_block">
+                        <!-- Modal Trigger -->
+                        <a class="waves-effect waves-light btn modal-trigger" data-art='001' href="#modal1">На 2 персоны (8шт)</a>
+                        <div>
+                            <div class="new_price">1000грн</div>
+                            <div class="old_price">3000грн</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="slider-for2">
+                        <img src="images/carousel/2/1.png" alt="carousel">
+                        <img src="images/carousel/2/2.png" alt="carousel">
+                        <img src="images/carousel/2/3.png" alt="carousel">
+                    </div>
+                    <div class="slider-nav2">
+                        <img src="images/carousel/2/1.png" alt="carousel">
+                        <img src="images/carousel/2/2.png" alt="carousel">
+                        <img src="images/carousel/2/3.png" alt="carousel">
+                    </div>
+                    <p class="item_title art2">Золото + белая ручка</p>
+                    <p class="item_subtitle"><span>В набор входит:</span> Вилка, нож, ложка столовая, ложка чайная.</p>
+                    <div class="price_block">
+                        <!-- Modal Trigger -->
+                        <a class="waves-effect waves-light btn modal-trigger" data-art='002' href="#modal1">На 2 персоны (8шт)</a>
+                        <div>
+                            <div class="new_price">1000грн</div>
+                            <div class="old_price">3000грн</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="slider-for3">
+                        <img src="images/carousel/3/1.png" alt="carousel">
+                        <img src="images/carousel/3/2.png" alt="carousel">
+                        <img src="images/carousel/3/3.png" alt="carousel">
+                        <img src="images/carousel/3/4.png" alt="carousel">
+                        <img src="images/carousel/3/5.jpg" alt="carousel">
+                    </div>
+                    <div class="slider-nav3">
+                        <img src="images/carousel/3/1.png" alt="carousel">
+                        <img src="images/carousel/3/2.png" alt="carousel">
+                        <img src="images/carousel/3/3.png" alt="carousel">
+                        <img src="images/carousel/3/4.png" alt="carousel">
+                        <img src="images/carousel/3/5.jpg" alt="carousel">
+                    </div>
+                    <p class="item_title art3">Золото + зеленая ручка</p>
+                    <p class="item_subtitle"><span>В набор входит:</span> Вилка, нож, ложка столовая, ложка чайная.</p>
+                    <div class="price_block">
+                        <!-- Modal Trigger -->
+                        <a class="waves-effect waves-light btn modal-trigger" data-art='003' href="#modal1">На 2 персоны (8шт)</a>
+                        <div>
+                            <div class="new_price">1000грн</div>
+                            <div class="old_price">3000грн</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video_review">
+        <h2 class="title">Видео от покупателей</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col m6 s12">
+                    <video loop autoplay muted src="video/1.mp4"></video>
+                </div>
+                <div class="col m6 s12">
+                    <video loop autoplay muted src="video/2.mp4"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="question">
+        <div class="container">
+            <h2 class="title">Часто задаваемые вопросы</h2>
+            <p class="subtitle">Здесь есть все ответы</p>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">Где я могу купить столовые приборы Cutlery Set?</div>
+                    <div class="collapsible-body"><span>Столовые приборы Cutlery Set в России продаются только в нашем официальном онлайн-магазине. Поэтому мы можем предложить лучшую цену - без наценок посредников и розничных сетей. Остерегайтесь подделок: каждый набор нашей продукции отличается высоким качеством, поставляется в брендированных коробках Cutlery Set, приборы имеют маркировку.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Что насчет доставки и возврата?</div>
+                    <div class="collapsible-body"><span>Мы предлагаем быструю доставку почтой России. Наши специалисты всегда проверяют товар перед отправкой, что гарантирует 100% качество. Гарантия на товар - 1 год. Обмен и возврат товара в течении 14 дней.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Если я отправлю деньги, а мне ничего не придет?</div>
+                    <div class="collapsible-body"><span>ОСТЕРЕГАЙТЕСЬ МОШЕННИКОВ! Мы не берем предоплат! Оплачивайте товар при получении на почте!</span></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="guardian">
+        <div class="container">
+            <h2 class="title">Политика безопасности клиента</h2>
+            <p class="subtitle">Мы заботимся о наших клиентах, минимизируя все возможные риски</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="fas fa-box-open iconCard"></i>Быстрая и безопасная доставка 
+                            <i class="fas fa-arrow-circle-down"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <p><img class="card-title grey-text text-darken-4 imageCard" src="images/dontwork.jpg" alt=""></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="fas fa-money-check-alt iconCard"></i>Безопасная оплата
+                            <i class="fas fa-arrow-circle-down"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <p><img class="card-title grey-text text-darken-4 imageCard" src="images/dontwork.jpg" alt=""></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <i class="fas fa-medal iconCard"></i>Оригинальная продукция
+                            <i class="fas fa-arrow-circle-down"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <p><img class="card-title grey-text text-darken-4 imageCard" src="images/dontwork.jpg" alt=""></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slider_review">
+        <div class="container">
+            <h2 class="title">Отзывы клиентов</h2>
+            <p class="subtitle">4000+ довольных покупателей </p>
+            <div class="center">
+                <img src="images/reviews/1.png" alt="">
+                <img src="images/reviews/2.png" alt="">
+                <img src="images/reviews/3.png" alt="">
+                <img src="images/reviews/4.png" alt="">
+                <img src="images/reviews/5.png" alt="">
+                <img src="images/reviews/6.png" alt="">
+                <img src="images/reviews/7.png" alt="">
+                <img src="images/reviews/8.png" alt="">
+                <img src="images/reviews/9.png" alt="">
+                <img src="images/reviews/10.png" alt="">
+                <img src="images/reviews/11.png" alt="">
+                <img src="images/reviews/12.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="suport">
+        <div class="container">
+            <h2 class="title">Как заказать столовые приборы Cutlery Set?</h2>
+            <div class="row">
+                <div class="col m3 s12">
+                    <div class="card-order">
+                        <span class="card-title">Шаг 1</span>
+                        <span class="card-title"><i class="fas fa-2x fa-pen-square"></i></span>
+                        <p class="card_info">Оставляете заявку на сайте.</p>
+                    </div>
+                </div>
+                <div class="col m3 s12">
+                    <div class="card-order">
+                        <span class="card-title">Шаг 2</span>
+                        <span class="card-title"><i class="fas fa-2x fa-headphones"></i></span>
+                        <p class="card_info">Наш менеджер уточняет детали заказа</p>
+                    </div>
+                </div>
+                <div class="col m3 s12">
+                    <div class="card-order">
+                        <span class="card-title">Шаг 3</span>
+                        <span class="card-title"><i class="fas fa-2x fa-truck"></i></span>
+                        <p class="card_info">Доставляем ваш товар от 3 до 14 дней</p>
+                    </div>
+                </div>
+                <div class="col m3 s12">
+                    <div class="card-order">
+                        <span class="card-title">Шаг 4</span>
+                        <span class="card-title"><i class="fas fa-2x fa-shopping-bag"></i></span>
+                        <p class="card_info">Оплачиваете при получении на почте</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="question_footer">
+        <div class="container visible">
+            <div class="row">
+                <div class="col m6 s12">
+                    <h2 class="title">Остались вопросы?</h2>
+                    <p class="subtitle">Наши менеджеры ответят на них</p>
+                    <form class='form_footer' action="">
+                        <label for="name"> Ваше имя*
+                        <input id="name" placeholder="Ваше имя" name="name" type="text">
+                    </label>
+                        <label for="phone"> Ваш телефон*
+                        <input id="phone" placeholder="Ваш телефон" name="phone" type="text">
+                    </label>
+                        <input class="floating-button" type="submit" value="Отправить">
+                    </form>
+                </div>
+                <div class="col m6 s12">
+
+
+                    <div class="slider_question">
+                        <img src="images/footer/1.png">
+                        <img src="images/footer/2.png">
+                        <img src="images/footer/3.png">
+                        <img src="images/footer/4.png">
+                        <img src="images/footer/5.png">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <p>THE END</p>
+        </div>
+    </footer>
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Форма заказа</h4>
+            <h5 id="articul"></h5>
+            <form action="" method="post">
+                <label for="name">
+                <input id="name" name="name" type="text">
+            </label>
+                <label for="phone">
+                <input id="phone" name="phone" type="text">
+            </label>
+
+                <input id="art" name="art" type="hidden">
+
+            </form>
+        </div>
+        <div class="modal-footer">
+            <input type="submit" class="modal-close waves-effect waves-green btn-flat" value="Оставить заявку">
+        </div>
+    </div>
+
+
+
+    <script src="js/timer.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
